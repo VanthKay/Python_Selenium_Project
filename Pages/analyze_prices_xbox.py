@@ -19,9 +19,8 @@ class results_xbox_ebay():
             f.write(str(cheapest_price))
 
         print(f"Prices: {prices}")
-        print(
-            f"The cheapest price is: {cheapest_price} Shekels (Item {cheapest_index + 3})")  # Add 3 to account for skipped results
-
+    # Add 3 to account for skipped results
+        print(f"The cheapest price is: {cheapest_price} Shekels (Item {cheapest_index + 3})")
         time.sleep(3)
 
 

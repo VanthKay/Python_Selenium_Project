@@ -9,7 +9,7 @@ from selenium.webdriver.support.select import Select
 # Writing video game in the search #HOMEPAGE
 
 class advanced_search():
-    def __init__(self,driver):
+    def __init__(self, driver):
         self.driver = driver
 
     def advanced_filters(self):
